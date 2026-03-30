@@ -19,14 +19,14 @@ cd otf-workout-tracker
 
 ```
 ### Step 2: Set up Virtual Environment
-###For Windows
+#### For Windows
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-###For Mac
+#### For Mac
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -59,7 +59,7 @@ Click Create.
 A box will pop up with your Client ID. Click the Download JSON button.
 Rename that downloaded file to exactly credentials.json and move it into the main folder of this project (the exact same folder where app.py is located).
 
-###Step 4: Run the Application!
+### Step 4: Run the Application!
 ```bash
 streamlit run app.py
 ```
