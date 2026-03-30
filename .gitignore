@@ -1,0 +1,6 @@
+# .gitignore
+credentials.json
+token.json
+__pycache__/
+.venv/
+.vscode/
